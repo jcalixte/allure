@@ -21,8 +21,6 @@
       </div>
     </div>
   </div>
-  {{ minute }}
-  {{ second }}
   <main>{{ allure }} km/h</main>
 </template>
 
@@ -60,6 +58,10 @@ export default defineComponent({
 
 <style scoped>
 main {
-  font-size: 5rem;
+  font-size: 4rem;
+}
+
+.control {
+  padding: 1rem;
 }
 </style>
