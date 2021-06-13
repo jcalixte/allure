@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1 class="title is-1">Allure min/km</h1>
+    <h1 class="main-title title is-1">Allure</h1>
     <router-view />
   </div>
 </template>
@@ -15,4 +15,8 @@ export default defineComponent({
 
 <style lang="scss">
 @import 'styles/app';
+
+.main-title {
+  margin-top: 0.5rem;
+}
 </style>
